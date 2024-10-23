@@ -14,7 +14,7 @@ def decode(password):
             decoded_password += str((int(char)-3))
     return decoded_password
 
-
+#Nandini Muvva's main function
 def main():
     encoded_password = ""
     while True:
@@ -37,7 +37,6 @@ def main():
             print(f"The encoded password is {encoded_password}, and the original password is {decode(encoded_password)}.")
 
         elif option == "3":
-            print("Exiting program.")
             break
 
 if __name__ == '__main__':
